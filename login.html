@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Login</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="login">
+			<form action="">
+				<h1>Login</h1>
+				<hr class="long">
+
+				<img class="picture" src="assets/images/login.png" width="200" height="150">
+
+				<p><span class="bintang-merah">*</span><b>Wajib diisi</b></p>
+				<label for="username">Username<span class="bintang-merah">*</span></label>
+				<input type="text" id="username" name="username" required placeholder="Masukkan Username">
+				<label for="password">Password<span class="bintang-merah">*</span></label>
+				<input type="text" id="password" name="password" required placeholder="Masukkan Password">
+				<label for="captcha">Captcha<span class="bintang-merah">*</span></label>
+				<img class="picture" src="assets/images/captcha.png" width="150" height="45"><br>
+				<input type="text" id="captcha" name="captcha" required placeholder="Masukkan captcha">
+
+				<button>Login</button>
+
+			</form>
+		</div>
+		<div class="right">
+			<div class="video-container">
+            <video id="my-video" controls>
+                <source src="assets/video/videoteknologi.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        	</div>
+		</div>
+	</div>
+</body>
+</html>
