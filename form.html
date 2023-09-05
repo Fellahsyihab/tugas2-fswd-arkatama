@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Pendaftaran SIB</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Studi Independen 2023 - PT Arkatama Multi SolusiIndo</h1>
+    <form action="proses_pendaftaran.php" method="post" enctype="multipart/form-data">
+        <label for="nama">Nama</label><br>
+        <input type="text" id="nama" name="nama" required placeholder="Nama Lengkap"><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required placeholder="Email Aktif"><br><br>
+
+        <label for="no_hp">No. HP</label><br>
+        <input type="tel" id="no_hp" name="no_hp" required placeholder="No. HP Aktif"><br><br>
+
+        <label for="jenis_kelamin">Jenis Kelamin</label><br>
+        <input type="radio" id="pria" name="jenis_kelamin" value="Pria" required>
+        <label for="pria">Pria</label><br>
+        <input type="radio" id="wanita" name="jenis_kelamin" value="Wanita" required>
+        <label for="wanita">Wanita</label><br><br>
+
+        <label for="prodi">Prodi</label><br>
+        <select id="prodi" name="prodi" required>
+            <option value="Pilih">Pilih</option>
+            <option value="Teknik Informatika">Teknik Informatika</option>
+            <option value="Manajemen Bisnis">Manajemen Bisnis</option>
+            <option value="Akuntansi">Akuntansi</option>
+            <option value="Manajemen Informatika">Manajemen Informatika</option>
+            <option value="Bahasa Inggris">Bahasa Inggris</option>
+            <option value="Teknik Mesin">Teknik Mesin</option>
+            <!-- Tambahkan pilihan prodi lainnya jika diperlukan -->
+        </select><br><br>
+
+         <label for="hobi">Hobi</label><br>
+        <input type="checkbox" id="hobi_olahraga" name="hobi[]" value="Olahraga">
+        <label for="hobi_olahraga">Olahraga</label><br>
+
+        <input type="checkbox" id="hobi_musik" name="hobi[]" value="Musik">
+        <label for="hobi_musik">Musik</label><br>
+
+        <input type="checkbox" id="hobi_menulis" name="hobi[]" value="Menulis">
+        <label for="hobi_menulis">Menulis</label><br><br>
+
+        <!-- Tambahkan pilihan hobi lainnya sesuai kebutuhan -->
+
+
+        <label for="alamat">Alamat</label><br>
+        <textarea id="alamat" name="alamat" rows="4" required placeholder="Alamat Lengkap"></textarea><br><br>
+
+        <label for="foto_diri">Foto Diri</label><br>
+        <input type="file" id="foto_diri" name="foto_diri" accept="image/*" required><br><br>
+
+        <input type="submit" value="Daftar">
+    </form>
+</body>
+</html>
