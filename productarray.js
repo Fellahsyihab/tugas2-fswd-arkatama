@@ -13,6 +13,36 @@ const products = [
         price: "Rp23.000,00"
     },
     // Tambahkan produk lainnya di sini
+    {
+        name: "Soto Padang",
+        image: "assets/images/sotopadang.png",
+        description: "bisa tambah nasi",
+        price: "Rp15.000,00"  
+    },
+    {
+        name: "Nasi Uduk",
+        image: "assets/images/nasiuduk.png",
+        description: "-",
+        price: "Rp10.000,00"
+    },
+    {
+        name: "Gado-gado Padang",
+        image: "assets/images/gadogado.png",
+        description: "bumbu kacang khas padang",
+        price: "Rp13.000,00"
+    },
+    {
+        name: "Nasi Goreng",
+        image: "assets/images/nasigoreng.png",
+        description: "-",
+        price: "Rp18.000,00"
+    },
+    {
+        name: "Es Teh",
+        image: "assets/images/esteh.png",
+        description: "-",
+        price: "Rp5000,00"
+    }
 ];
 
 // Fungsi untuk menambahkan produk ke dalam grid
