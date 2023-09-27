@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="productapi.css">
+    <title>Daftar Menu</title>
+</head>
+<body>
+    <div class="container">
+        <h1>DAFTAR MENU PONDOK MAK SATI</h1>
+        
+        <!-- Pencarian -->
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Cari produk...">
+            <button id="search-button">Cari</button>
+        </div>
+        
+        <div class="product-grid" id="product-grid">
+            <!-- Produk akan ditampilkan di sini -->
+            <div class="product-card">
+                <img src="assets/images/satepadang.png" alt="Produk 1">
+                <h2>Sate Padang (Daging As)</h2>
+                <p>Sate Padang Daging As + Lontong</p>
+                <p class="price">Rp25.000,00</p>
+                <a href="#">Selengkapnya</a>
+            </div>
+            <!-- ... Lanjutkan dengan produk lainnya ... -->
+            <div class="product-card">
+                <img src="assets/images/satepadang.png" alt="Produk 2">
+                <h2>Sate Padang (Ayam)</h2>
+                <p>Sate Padang Daging Ayam + Lontong</p>
+                <p class="price">Rp23.000,00</p>
+                <a href="#">Selengkapnya</a>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/sotopadang.png" alt="Produk 3">
+                <h2>Soto Padang</h2>
+                <p>bisa tambah nasi</p>
+                <p class="price">Rp15.000,00</p>
+                <a href="#">Selengkapnya</a>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/lontongpadang.png" alt="Produk 4">
+                <h2>Lontong Padang Gulai Toco/Lodeh</h2>
+                <p>ada 2 pilihan gulai tauco & lodeh</p>
+                <p class="price">Rp7000,00</p>
+                <a href="#">Selengkapnya</a>
+            </div>
+
+            <!-- Baris 2 -->
+            <div class="product-card">
+                <img src="assets/images/nasiuduk.png" alt="Produk 5">
+                <h2>Nasi Uduk</h2>
+                <p></p>
+                <p class="price">Rp10.000,00</p>
+                <a href="#">Selengkapnya</a>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/gadogado.png" alt="Produk 6">
+                <h2>Gado-gado Padang</h2>
+                <p>bumbu kacang khas padang</p>
+                <p class="price">Rp13.000,00</p>
+                <a href="#">Selengkapnya</a>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/nasigoreng.png" alt="Produk 7">
+                <h2>Nasi Goreng</h2>
+                <p></p>
+                <p class="price">Rp18.000,00</p>
+                <a href="#">Selengkapnya</a>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/esteh.png" alt="Produk 8">
+                <h2>Es Teh</h2>
+                <p></p>
+                <p class="price">Rp5000,00</p>
+                <a href="#">Selengkapnya</a>
+            </div>
+        </div>
+
+        <!-- Form Tambah Produk -->
+        <div class="add-product">
+            <h2>Tambah Produk</h2>
+            <form id="add-product-form">
+                <input type="text" id="product-name" placeholder="Nama Produk" required>
+                <input type="text" id="product-description" placeholder="Deskripsi Produk" required>
+                <input type="number" id="product-price" placeholder="Harga Produk" required>
+                <button type="submit">Tambah</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="productapi.js"></script>
+</body>
+</html>

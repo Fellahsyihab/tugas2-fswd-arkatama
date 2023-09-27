@@ -37,27 +37,38 @@ header {
     padding: 10px 0;
 }
 
-nav ul.menu {
+/* Style navigation menu */
+nav {
+    background-color: #3498db; /* Warna latar belakang menu */
+}
+
+ul.menu {
     list-style: none;
-    text-align: center;
     padding: 0;
+    margin: 0;
+    display: flex; /* Menggunakan flexbox untuk menu horizontal */
 }
 
-nav ul.menu li {
-    display: inline-block;
-    margin-right: 20px;
+ul.menu li {
+    margin-right: 20px; /* Jarak antara setiap item menu */
 }
 
-nav ul.menu li:last-child {
-    margin-right: 0;
+ul.menu li:last-child {
+    margin-right: 0; /* Menghapus margin kanan pada item terakhir agar tidak ada jarak berlebihan */
 }
 
-nav ul.menu li a {
+ul.menu li a {
     text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    font-size: 16px;
+    color: #fff; /* Warna teks */
+    padding: 10px 20px; /* Padding untuk ruang di sekitar teks */
+    border-radius: 4px; /* Sudut bulat untuk item menu */
+    transition: background-color 0.3s ease; /* Animasi perubahan latar belakang saat hover */
 }
+
+ul.menu li a:hover {
+    background-color: #2980b9; /* Warna latar belakang saat hover */
+}
+
 
 
 .container {
