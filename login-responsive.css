@@ -1,0 +1,72 @@
+/* Style for the main container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 20px;
+    background-color: #8EACCD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.bintang-merah {
+    color: red; /* Atur warna merah */
+  }
+
+/* Style for the login form */
+.login {
+    text-align: center;
+    background-color: #D2E0FB;
+}
+
+.login form {
+    display: grid;
+    gap: 10px;
+}
+
+.login h1 {
+    font-size: 24px;
+}
+
+.picture {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Style for the right column */
+.right {
+    text-align: center;
+}
+
+/* Media Query for responsiveness */
+@media screen and (min-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        text-align: left;
+    }
+
+    .login {
+        padding: 20px; /* Optional padding for the login form */
+    }
+
+    .right {
+        text-align: center;
+    }
+}
+
+/*menggunakan display: grid untuk .container ketika lebar layar mencapai 768px atau lebih, sehingga elemen-elemen akan ditampilkan dalam dua kolom.*/
+
+/*.login tetap menjadi elemen yang merespons dengan baik dengan menggunakan display: grid untuk tata letak login form.*/
+
+/* menggunakan @media query untuk mengatur perubahan tampilan ketika lebar layar mencapai 768px atau lebih. Pada saat itu, kami mengubah display dari .container menjadi grid dan mengatur grid-template-columns untuk membuat dua kolom.*/
