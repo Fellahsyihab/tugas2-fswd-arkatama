@@ -1,0 +1,50 @@
+/* Gaya untuk latar belakang dashboard dengan warna biru */
+.content-wrapper {
+  background-color: #F5E8B7; /* Warna biru */
+  color: #CD5C08; /* Warna teks putih */
+}
+
+/* Gaya untuk judul "Dashboard" */
+h1 {
+  color: #CD5C08; /* Warna teks putih */
+}
+
+/* Gaya untuk tombol "New Product" di sidebar dengan warna hijau */
+.nav-link p {
+  color: #28A745; /* Warna hijau */
+}
+
+/* Gaya untuk latar belakang sidebar dengan warna abu-abu tua */
+.main-sidebar {
+  background-color: #343a40; /* Warna abu-abu tua */
+  color: #fff; /* Warna teks putih */
+}
+
+/* Gaya untuk teks di sidebar dengan warna teks putih */
+.nav-sidebar .nav-item .nav-link p {
+  color: #fff; /* Warna teks putih */
+}
+
+/* Gaya untuk kartu produk pertama dengan warna merah */
+.card:first-child {
+  background-color: #CD5C08; /* Warna merah */
+  color: #fff; /* Warna teks putih */
+}
+
+/* Gaya untuk kartu produk kedua dengan warna kuning */
+.card:nth-child(2) {
+  background-color: #CD5C08; /* Warna kuning */
+  color: #000; /* Warna teks hitam */
+}
+
+/* Gaya untuk kartu produk ketiga dengan warna hijau */
+.card:nth-child(3) {
+  background-color: #CD5C08; /* Warna hijau */
+  color: #fff; /* Warna teks putih */
+}
+
+/* Gaya untuk kartu produk keempat dengan warna biru muda */
+.card:nth-child(4) {
+  background-color: #CD5C08; /* Warna biru muda */
+  color: #fff; /* Warna teks putih */
+}
